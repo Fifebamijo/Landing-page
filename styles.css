@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/wallpaper.jpg);
+}
+
+.main-section {
+    background-color: rgb(123, 163, 64);
+    margin-bottom: 20px;
+}
+
+.main-section header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section header h1 {
+    padding-left: 10px;
+    font-size: 50px;
+    color: rgb(193, 253, 104);
+}
+
+.main-section header ul li  {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.main-section header ul li a {
+    text-decoration: none;
+    color: #bebdbd;
+
+}
+
+.main-section h2 {
+    padding: 10px 20px;
+}
+
+.main-section p {
+    padding: 0 20px;
+}
+
+.main-section img {
+    display: block;
+    width: 450px;
+    height: 210px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.main-section button {
+    width: 80px;
+    margin: 10px 10px;
+    padding: 5px 15px;
+    background-color: rgb(243, 204, 104);
+    border: none;
+    border-radius: 5px;
+
+}
+
+#nature-blessings {
+    background-color: rgb(108, 173, 9);
+    padding-top: 15px;
+}
+
+#nature-blessings h3 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(80, 78, 73);
+}
+
+#nature-blessings figure {
+    margin-left: 70px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#nature-blessings figure img {
+    width: 350px;
+    height: 150px;
+}
+
+#nature-blessings figure figcaption {
+    padding-right: 70px;
+    text-align: center;
+}
+
+#quotes {
+    background-color: rgba(136, 134, 134, 0.205);
+    margin: 10px 5px;
+    padding: 20px 8px;
+    border-radius: 2px;
+}
+
+#quotes em {
+    display: block;
+    color: whitesmoke;
+}
+
+#info {
+    background-color: transparent;
+    padding: 20px 5px;
+}
+
+#info div {
+    background-color: rgb(1, 46, 1);
+    padding: 20px 10px;
+    border-radius: 2px;
+}
+
+#info div p {
+    color: #a3a2a2;
+}
+
+#info div button {
+    margin-left: 10px;
+    background-color: rgb(178, 235, 93);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+@media (min-width: 600px) {
+    .main-section #sub-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-section img {
+        padding-bottom: 20px;
+    }
+
+    .main-section button {
+        position: absolute;
+        top: 32%;
+    }
+
+    #nature-blessings div {
+        display: flex;
+        flex-shrink: 2;
+    }
+
+    #nature-blessings figure {
+        margin-left: 5px;
+        padding-right: 20px;
+
+    }
+
+    #nature-blessings figure img  {
+        border: 5px solid green;
+        border-radius: 7px;
+        width: 120px;
+        height: 110px;
+    }
+
+    #nature-blessings figure figcaption {
+        padding-right: 10px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #info {
+        background-color: transparent;
+        padding: 10px 5px;
+    }
+    
+    #info div button {
+        margin-left: 30px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 1000px;
+        background-size: cover;
+        margin: 20px auto;
+    }
+    .main-section #sub-section {
+        display: flex;
+        /* justify-content: space-around; */
+    }
+
+    .main-section #sub-section h2 {
+        margin-left: 30px;
+        margin-top: 50px;
+        font-size: 29px;
+    }
+
+    .main-section #sub-section p {
+        margin-left: 30px;
+    }
+
+    .main-section img {
+        padding-bottom: 20px;
+        width: 600px;
+        height: 250px;
+    }
+
+    .main-section button {
+        position: absolute;
+        top: 37%;
+        left: 16%;
+    }
+
+    #nature-blessings div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #nature-blessings figure {
+        margin-left: 4px;
+        align-items: center;
+        padding: 10px 10px;
+    }
+
+    #nature-blessings figure img  {
+        border: 5px solid green;
+        border-radius: 7px;
+        width: 200px;
+        height: 100px;
+    }
+
+    #nature-blessings figure figcaption {
+        padding: 0 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #quotes {
+        background-color: rgba(136, 134, 134, 0.205);
+        margin: 10px 5px;
+        padding: 20px 60px;
+        border-radius: 2px;
+    }
+
+    #info {
+        padding: 10px 10px;
+    }
+
+    #info div {
+        padding: 15px 30px;
+    }
+    
+    #info div button {
+        margin-left: 30px;
+    }
+
+}
